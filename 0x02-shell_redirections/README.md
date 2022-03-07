@@ -1,1 +1,1 @@
-$ My second devops readme
+My second devops readme
