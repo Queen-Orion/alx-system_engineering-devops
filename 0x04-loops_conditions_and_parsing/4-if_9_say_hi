@@ -1,13 +1,12 @@
 #!/usr/bin/env bash
-This script displays 'Hi' at the 10th line
-count=0
+This script displays 'Hi' at the 9th line
+string_a='Best School'
+counter=0
 
-while [ $count -lt 10 ];
-do
-if [ $count -eq 9 ];
-then
-echo 'Hi'
-fi
-echo 'Best School'
-(( count++ ))
+while [ $counter -lt 10 ]; do
+	echo "$string_a"
+	(( counter+=1 ))
+	if [ $counter -eq 9 ]; then
+		echo "Hi"
+	fi
 done
